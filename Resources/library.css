@@ -320,7 +320,7 @@ background-position: center;
         margin-top: 170px;
         margin-left: 25%;
         margin-left: 25%;
-        background-image: url('wall\ papers/99.jpg');
+        background-image: url('wall\ papers/102.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -354,7 +354,7 @@ background-position: center;
             margin-top: 100px;
             margin-left: 25%;
             margin-left: 25%;
-            background-image: url('wall\ papers/99.jpg');
+            background-image: url('wall\ papers/104.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -392,11 +392,25 @@ background-position: center;
         
     }
     
-    /* this deals with the div inside the writen_text2 */
+    /* this deals with the sizing of the inside_writen_text  div */
 
-    #second_section .inside_writen_text2{
+    .inside_writen_text2, .inside_writen_text3{
         margin:10px 10px;
+    }
 
+        /* this deals with the position of the inside_writen_text3  div */
+    .writen_text4, .writen_text6{
+align-content: end;
+    }
+    /* this deals with the coloring of the inside_writen_text3  div */
+
+       .inside_writen_text3 h1{
+        -webkit-text-fill-color: #ffffff;
+    }
+
+    
+    .inside_writen_text3 h4{
+        -webkit-text-fill-color: #ffffff;
     }
 
 
@@ -405,7 +419,7 @@ background-position: center;
 #third_section{
 height: 60vh;
 margin-top: 68vh;
-background-image:linear-gradient(rgba(3, 13, 53, 0.342),rgba(3, 13, 53, 0.336)), url('wall\ papers/100.jpg');
+background-image:linear-gradient(rgba(3, 13, 53, 0.438),rgba(3, 13, 53, 0.336)), url('wall\ papers/100.jpg');
 background-size: cover;
 background-position: center;
 justify-content: center;
@@ -424,23 +438,64 @@ text-align: center;
     justify-items: center;
     align-content: center;
     align-items: center;
-    text-align: center;  
-    border: 1px solid red;  
+    text-align: center;   
 }
 
-#third_section .content_container ul{
-list-style-type: none;
+
+#third_section  li{
+    color: #00F0FF;
+    list-style-type: none;
+    line-height: 25px;
 }
+
+#third_section  li a{
+    color: #00F0FF;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+
+#third_section .tittles {
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+
 
 #third_section .content_container .box_container1, #third_section .content_container .box_container2, #third_section .content_container .box_container3, #third_section .content_container .box_container4{
-    border: 1px solid red; 
     height: 45vh;
     width: 11rem;
     background-color:#030d3398;
     color: #00F0FF;
-
+    text-align: center;
 }
 
-.box_container2 .box_container4{
-align-items: start;
+#third_section .box_container2,#third_section   .box_container4{
+margin-top: 100px;
 }
+
+#third_section .box_container1,#third_section   .box_container3{
+margin-bottom: 100px;
+padding-bottom: 100px;
+}
+
+footer{
+    height: 5vh;
+    background-color:#030D33 ;
+    
+}
+
+footer p{
+    color: #00F0FF;
+    text-align: center;
+    list-style-type: none;
+    padding-top: 8px;
+}
+
+footer p a{
+    color: #00F0FF;
+    text-align: center;
+    list-style-type: none;
+    padding-top: 8px;
+}
+
