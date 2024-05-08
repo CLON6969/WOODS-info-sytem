@@ -1,0 +1,146 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#title{
+    color:  hsl(120, 92%, 36%);
+    font-weight: 500;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+   
+}
+
+.login_box{
+
+    background-image:linear-gradient( rgba(0, 0, 50, 0.308), rgba(0, 0, 50, 0.295)), url("wall\ papers/89.5.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.form_box{
+    width: 90%;
+    max-width: 490px;
+    position: absolute;
+    top: 3rem;
+    right: 23rem;
+    background: #0401273b;
+    margin-left: 35%;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 30px;
+   
+}
+
+.form_box h1{
+    font-size: 30px;
+    margin-bottom: 60px ;
+    color: rgb(61, 102, 216);
+    position: relative;
+
+}
+
+.form_box h1::after{
+    content: '';
+    width: 3rem;
+    height: 4px;
+    border-radius: 3px;
+    background: #03a5bb;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form_box P{
+    color:  #d7d5e9e7;
+    font-size: 18xspx;
+    padding-right: 4px;
+
+}
+
+.form_box a{
+
+    text-decoration: none;
+    color: #1df5ca;
+    padding-left: 4px;
+}
+
+.input_filed{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width:100% ;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding:18px 15px;
+}
+
+.input_filed i{
+    margin-left: 15px ;
+    color: black;
+}
+form p{
+    text-align: left;
+    font-size: 13px;
+   
+}
+
+
+
+.btn_filed{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+
+
+.btn_filed button{
+flex-basis: 48%;
+background: #1ba000;
+color: #eaeaea;
+height: 40px;
+border-radius:20px ;
+border: 0;
+outline: 0;
+cursor: pointer;
+transition: background 1s;
+font-size: 15px;
+font-weight: 800;
+}
+
+
+
+.input_group{
+    height: 230px;
+}
+::placeholder{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+
+.btn_filed .disable{
+background: #eaeaea;
+color: #0ec01d;
+font-size: 15px; 
+font-weight: 800;
+transition: 1s;
+}
+
+.btn_filed .disable:hover{
+    background:#0ec01d ;
+    color: #eaeaea;
+    }
+

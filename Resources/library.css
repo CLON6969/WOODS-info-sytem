@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: #0F6F36;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    justify-content: space-between;
+    box-shadow: 2px 2px 10px #16045826;
+    width: 100%;
+    position: fixed;
+    background: #0f6f35;
+}
+
+nav  label a{
+    color: hsl(120, 92%, 36%);
+    margin-left: 15px;
+    margin: 2px;
+    padding-left:1%;
+    font-size:30px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style-type: none;
+}
+
+
+nav li {
+    margin: 55px 10px 5px 10px;
+}
+
+nav .right_elements{
+    margin: 6px 5px 2px 22rem;
+    justify-content: space-between;   
+}
+
+
+nav .home_list, nav .services_list {
+    margin: 10px 10px 5px 30px;
+}
+
+
+nav li a{
+    color: #00F0FF;
+    text-decoration: none;
+    font-size: 18px ;
+    font-weight: 800;
+}
+
+/* this is the home section styling*/
+#home .hours{
+    color: #00F0FF;
+    margin-left: 70rem;
+    float:right;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+
+  }
+
+#home{
+height:120vh;
+width: 100%;
+padding-top: 12vh;
+background-color: #030D33;
+display: flex;
+flex-direction: column;
+align-items:center;
+line-height: 5vw;
+background-image:linear-gradient(rgba(3, 13, 53, 0.384),rgb(3, 13, 53)), url('wall\ papers/pic/16.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+#home h1{
+    color:hsl(120, 92%, 36%);
+    letter-spacing: 2px;
+    font: italic 3.5rem  "Fira Sans ", serif ;
+    font-weight: 600;
+}
+#home p{
+    color: #00F0FF;
+     font-size: 18px;
+     font-weight: 600;
+    letter-spacing: 4px;
+    font-family:monospace;
+}
+
+#home .first_part{
+    
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+    line-height: 3.5rem;
+    padding-right: 7rem;
+    width: 100%;
+    
+}
+
+#home .first_part .first_btns a{
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0 0 0 6vw;
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    background: #0f6f35;
+}
+
+
+#home .first_1_child_part{
+    margin: 0;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    padding-bottom: 4%;
+    width: 100%;
+}
+
+
+#home .first_1_child_part input{
+    outline: none;
+    color: #030D33;
+    font-size: 14px;
+    font-weight: 800;   
+    padding: 8px;
+    padding-right: 10px;
+    border-radius: 8px;
+    width: 60%;
+    text-align: center;
+    box-shadow: 0 6px 12px #030D33;
+
+}
+
+#home .first_1_child_part i{
+    text-align: center;
+}
+
+#home .first_1_child_part button{
+    border: 0;
+    color:#030D33 ;
+    letter-spacing: 1px;
+    font-size: 14.5px;
+    font-weight: 800;
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    background: #00F0FF;
+}
+
+#home .second_btns{
+font-weight: 800;
+}
+
+#home .second_btns a{
+    color: #030D33;
+    font-weight: 900;
+    margin: 0 0 0 2vw;
+    border-radius: 8px;
+    background:  #00F0FF;
+    font-size: 1.2rem;  
+    text-decoration: none;
+    padding: 8px 27px;
+    width: 100%;
+    
+}
+
+/* this is the first section*/
+#first_section{
+height: 20vh;
+width: 100%;
+justify-content: center;
+align-items: center;
+text-align: start;
+
+}
+
+#first_section .contents{
+    width: 50%;
+    margin-left: 27%;
+    margin-top: 30px;
+}
+
+#first_section .contents h1{
+color: #030D33;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+font-weight: 400;
+}
+#first_section .contents h4{
+    color: #030D33;
+    font-family: serif;
+    font-size: 18px;
+
+}
+
+/* this is the slide show of the the pictures*/
+
+
+.slider_frame{
+    overflow: hidden;
+    height: 26vh;
+    width: 400px;
+    margin-top: 20px;
+    
+}
+
+
+@-webkit-keyframes slide_animation{
+    0%{left:0px;}
+    25%{left:800px;}
+    50%{left:1200px;}
+    75%{left:800px;}
+    100%{left:0px;}
+}
+
+.slide_images{
+    width: 3000px;
+    height: 16vh;
+    margin: 0 0 0 -1200px;
+    position:relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-play-state:running;
+    
+}
+
+.image_contssiner{
+    height: 26vh;
+    width: 400PX;
+    position: relative;
+    float: left;
+    z-index: -1;
+}
+
+
+
+.image_contssiner img{
+    height:180px; 
+    width: 400PX;
+}
+
+.slides_container{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px;
+    
+}
+
+/* this is the secontd section's sttyling */
+
+#second_section{
+    height: 60vh;
+    width: 100%;
+    margin-top: 38vh;
+    
+}
+
+#second_section .writen_text_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(370px, 1fr));
+    height: 122vh;
+    padding-bottom: 80px;
+}
+
+
+/* this ressizes the text divs*/ 
+#second_section .writen_text_container .writen_text1{
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    margin-left:2.9rem;
+    height: 100px;
+    
+}
+
+
+#second_section .writen_text_container .writen_text2{
+width: 60%;
+height: 450px;
+margin-top: 70px;
+margin-left: 25%;
+margin-left: 25%;
+background-image: url('wall\ papers/99.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#second_section .writen_text_container .writen_text3{
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    height: 100px;
+    margin-top: 70px;
+}
+
+    #second_section .writen_text_container .writen_text4{
+        width: 60%;
+        height: 450px;
+        margin-top: 170px;
+        margin-left: 25%;
+        margin-left: 25%;
+        background-image: url('wall\ papers/99.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #second_section .writen_text_container .writen_text5{
+        width: 60%;
+        height: 50px;
+        margin-top: 35px;
+        padding-top: 18px;
+        margin-left: 25%;
+        margin-left: 25%;
+        }
+
+         .writen_text5 a{
+            color: #00F0FF;
+            font-weight: 900;
+            margin: 0 0 0 2vw;
+            border-radius: 8px;
+            background: #030D33;
+            font-size: 1.2rem;  
+            text-decoration: none;
+            padding: 8px 27px;
+            width: 100%;
+            
+        }
+
+    #second_section .writen_text_container .writen_text6{
+            width: 60%;
+            height: 450px;
+            margin-top: 100px;
+            margin-left: 25%;
+            margin-left: 25%;
+            background-image: url('wall\ papers/99.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            }
+
+
+
+/* this deals with the text tempering */
+#second_section .writen_text_container .writen_text1 h1, .writen_text3 h1{
+    color: #030D33;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-weight: 400;
+    }
+
+    #second_section .writen_text_container .writen_text1 h4, .writen_text3 h4{
+        color: rgb(3, 13, 51);
+        font-family: serif;
+        font-size: 18px;
+    
+    }
+
+    #second_section .writen_text_container .writen_text2 h1{
+        color: #ffffff;
+        justify-content: end;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+        font-weight: 400;
+        margin-top:300px; 
+    }
+
+
+    #second_section .writen_text_container .writen_text2 h4{
+        color: #ffffff;
+        font-family: serif;
+        font-size: 18px;
+        
+    }
+    
+    /* this deals with the div inside the writen_text2 */
+
+    #second_section .inside_writen_text2{
+        margin:10px 10px;
+
+    }
+
+
+        /* this is the third part    background-color: #033323;*/
+
+#third_section{
+height: 60vh;
+margin-top: 68vh;
+background-image:linear-gradient(rgba(3, 13, 53, 0.342),rgba(3, 13, 53, 0.336)), url('wall\ papers/100.jpg');
+background-size: cover;
+background-position: center;
+justify-content: center;
+justify-items: center;
+align-content: center;
+align-items: center;
+text-align: center;
+
+}
+
+#third_section .content_container{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    justify-content: space-evenly ;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;  
+    border: 1px solid red;  
+}
+
+#third_section .content_container ul{
+list-style-type: none;
+}
+
+#third_section .content_container .box_container1, #third_section .content_container .box_container2, #third_section .content_container .box_container3, #third_section .content_container .box_container4{
+    border: 1px solid red; 
+    height: 45vh;
+    width: 11rem;
+    background-color:#030d3398;
+    color: #00F0FF;
+
+}
+
+.box_container2 .box_container4{
+align-items: start;
+}
