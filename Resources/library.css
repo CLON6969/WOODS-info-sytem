@@ -211,21 +211,69 @@ background-repeat: no-repeat;
     background: #00F0FF;
 }
 
+
+/* this is the drop down login button styling*/
 #home .second_btns{
 font-weight: 800;
+width:102px;
+margin-left: 35rem;
+border-radius: 8px;
+border: 2px solid #030D33;
 }
 
 #home .second_btns a{
     color: #030D33;
     font-weight: 900;
-    margin: 0 0 0 2vw;
+    margin: 0 0 0 2px;
     border-radius: 8px;
     background:  #00F0FF;
     font-size: 1.2rem;  
     text-decoration: none;
-    padding: 8px 27px;
+    padding: 8px 14px;
     width: 100%;
     
+}
+
+#home .second_btns a:hover{
+    color: #00F0FF;
+    background-color: #030d33;
+    }
+
+#home .second_btns li{
+    width:100px;
+    list-style-type: none;
+    background-color: #00F0FF;
+    border-radius: 8px;
+}
+
+#home .second_btns li:hover{
+    color: #030D33;
+}
+
+.dropdown1{
+    display: none;
+    transition: 0.3s;
+}
+
+#home .second_btns li:hover .dropdown1{
+    display: block;
+    position: relative;
+    top: 78%;
+    background-color:#030d3300;
+}
+
+.dropdown1 ul a{
+    font-size: 12px;
+    font-size: 400;
+    text-align: center;
+
+}
+
+.dropdown1 ul{
+    display: block;
+    font-size: 12px;
+    text-align: center;
+
 }
 
 /* this is the first section*/
