@@ -45,13 +45,13 @@ nav li {
 }
 
 nav .right_elements{
-    margin: 6px 5px 2px 22rem;
+    margin: 6px 5px 2px 16.7rem;
     justify-content: space-between;   
 }
 
 
 nav .home_list, nav .services_list {
-    margin: 10px 10px 5px 30px;
+    margin: 10px 11px 5px 30px;
 }
 
 
@@ -62,10 +62,55 @@ nav li a{
     font-weight: 800;
 }
 
+/* this is the dropdown menu  for the servicesstyling*/
+
+.menu{
+    margin-right: 18rem;
+}
+
+.menu .right_elements li:hover{
+    color: #030D33;
+}
+
+.dropdown{
+    display: none;
+    transition: 0.3s;
+}
+
+
+.menu .right_elements li:hover .dropdown{
+    display: block;
+    position: absolute;
+    right: 0;
+    top:38% ;
+    background-color:#030D33;
+}
+
+.services_list{
+    padding:0 32.5px 0px 32.5px;
+}
+.services_list:hover{
+    background-color: #030D33;
+    
+}
+
+.dropdown ul a{
+    font-size: 12px;
+    font-size: 400;
+    text-align: center;
+
+}
+.dropdown ul{
+    display: block;
+    font-size: 12px;
+    text-align: center;
+
+}
+
 /* this is the home section styling*/
 #home .hours{
     color: #00F0FF;
-    margin-left: 70rem;
+    margin-left: 60rem;
     float:right;
     font-size: 18px;
     font-weight: 700;
