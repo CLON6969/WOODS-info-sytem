@@ -135,6 +135,10 @@ font-size: 15px;
 font-weight: 800;
 }
 
+.btn_filed button:hover{
+border: 1px solid #00F0FF;
+}
+
 .btn_filed .disable{
     flex-basis: 48%;
     background: #1ba000;

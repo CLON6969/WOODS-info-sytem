@@ -3,6 +3,7 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <!--styles links-->
     <link rel="stylesheet" href="Resources/style.css">
 
@@ -31,7 +32,7 @@
             <ul>
                 <li><a class="home" href="#"> HOME</a></li>
                 <li><a class="blog" href="#"> BLOG</a></li>
-                <li><a class="about" href="#"> ABOUT</a></li>
+                <li><a class="about" href="#about"> ABOUT</a></li>
                 <li><a class="courses" href="#"> COURSES</a></li>
                 <li><a class="contact"  href="library.html"> libray</a></li>
             </ul>
@@ -39,7 +40,7 @@
 </nav>
 
 
-
+<main>
 
 <!--HOME-->
 
@@ -49,359 +50,347 @@
         <p> Master essential
              skills that improve your carear via interactive
             learning.</p>
-            <video autoplay muted loop class="home_video">
-                <source src="Resources/short videos/8.mp4">
-                
-            </video>
+
+ <svg id="animated-svg" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'>
+        <rect fill='#020A28' width='2000' height='1500'/>
+        <defs>
+            <circle stroke='#19DC74' vector-effect='non-scaling-stroke' id='a' fill='none' stroke-width='5' r='315'/>
+            <use id='f' href='#a' stroke-dasharray='100 100 100 9999'/>
+            <use id='b' href='#a' stroke-dasharray='250 250 250 250 250 9999'/>
+            <use id='e' href='#a' stroke-dasharray='1000 500 1000 500 9999'/>
+            <use id='g' href='#a' stroke-dasharray='1500 9999'/>
+            <use id='h' href='#a' stroke-dasharray='2000 500 500 9999'/>
+            <use id='j' href='#a' stroke-dasharray='800 800 800 800 800 9999'/>
+            <use id='k' href='#a' stroke-dasharray='1200 1200 1200 1200 1200 9999'/>
+            <use id='l' href='#a' stroke-dasharray='1600 1600 1600 1600 1600 9999'/>
+        </defs>
+        <g transform='translate(1000 750)' stroke-opacity='1'>
+            <g transform='rotate(198 0 0)'>
+                <circle fill='#19DC74' fill-opacity='1' r='10'/>
+                <g >
+                    <use href='#f' transform='scale(.1) rotate(50 0 0)'/>
+                    <use href='#f' transform='scale(.2) rotate(100 0 0)'/>
+                    <use href='#f' transform='scale(.3) rotate(150 0 0)'/>
+                </g>
+                <g class='animated-group'>
+                    <use href='#b' transform='scale(.4) rotate(200 0 0)'/>
+                    <use href='#z' transform='scale(.5) rotate(250 0 0)'/>
+                </g>
+                <g id='z'>
+                    <g transform='rotate(123.75 0 0)' class='animated-group'>
+                        <use href='#b'/>
+                        <use href='#b' transform='scale(1.2) rotate(90 0 0)'/>
+                        <use href='#b' transform='scale(1.4) rotate(60 0 0)'/>
+                        <use href='#e' transform='scale(1.6) rotate(120 0 0)'/>
+                        <use href='#e' transform='scale(1.8) rotate(30 0 0)'/>
+                    </g>
+                </g>
+                <g id='y'>
+                    <g transform='rotate(74.25 0 0)' class='animated-group'>
+                        <use href='#e' transform='scale(1.1) rotate(20 0 0)'/>
+                        <use href='#g' transform='scale(1.3) rotate(-40 0 0)'/>
+                        <use href='#g' transform='scale(1.5) rotate(60 0 0)'/>
+                        <use href='#h' transform='scale(1.7) rotate(-80 0 0)'/>
+                        <use href='#j' transform='scale(1.9) rotate(100 0 0)'/>
+                    </g>
+                </g>
+                <g transform='rotate(-148.5 0 0)'>
+                    <g>
+                        <g>
+                            <use href='#h' transform='scale(2) rotate(60 0 0)'/>
+                            <use href='#j' transform='scale(2.1) rotate(120 0 0)'/>
+                            <use href='#j' transform='scale(2.3) rotate(180 0 0)'/>
+                            <use href='#h' transform='scale(2.4) rotate(240 0 0)'/>
+                            <use href='#j' transform='scale(2.5) rotate(300 0 0)'/>
+                        </g>
+                        <use href='#y' transform='scale(2) rotate(180 0 0)'/>
+                        <use href='#j' transform='scale(2.7)'/>
+                        <use href='#j' transform='scale(2.8) rotate(45 0 0)'/>
+                        <use href='#j' transform='scale(2.9) rotate(90 0 0)'/>
+                        <use href='#k' transform='scale(3.1) rotate(135 0 0)'/>
+                        <use href='#k' transform='scale(3.2) rotate(180 0 0)'/>
+                    </g>
+                    <use href='#k' transform='scale(3.3) rotate(225 0 0)'/>
+                    <use href='#k' transform='scale(3.5) rotate(270 0 0)'/>
+                    <use href='#k' transform='scale(3.6) rotate(315 0 0)'/>
+                    <use href='#k' transform='scale(3.7)'/>
+                    <use href='#k' transform='scale(3.9) rotate(75 0 0)'/>
+                </g>
+            </g>
+        </g>
+    </svg>
+
+
         
     <div class="btn">
-        <a href="loginpage.html" class="blue">LOG IN</a>
-        <a href="registration.html" class="yellow">Apply</a>
+        
+        <div class="second_btns">
+            <ul>
+                  <li>
+
+                    <a href="#" class="blue">Login<i class="fa-solid fa-circle-chevron-down"></i></a>
+
+                        <div class="dropdown1">
+                              <ul>
+                        <li><a class="staff" href="staffloginpage.html">Staff</a></li>
+                        <li><a class="student" href="loginpage.html">Student</a></li>                      
+                              </ul>
+                         </div>
+
+
+                  </li>
+            </ul>
+      </div>
+        
+
+
+
+
+<div>
+    <a href="registration.html" class="yellow">Apply</a>
+</div>
+
+
     </div>
 </section>
 
-<section id="first_part">
 
-   
-    <h1> WOODS UNIVERSITY <br> <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero amet consequatur placeat excepturi dolorem ipsam vero obcaecati expedita nobis dicta cupiditate nesciunt, possimus distinctio id atque illo iure nam nulla.</p> </h1>
 
-    <div class="internal_first_section">
-        <img src="Resources/wall papers/46.jpg" alt="computer">
 
+
+<!--first_PART-->
+
+<section class="first_part">
+    <div class="inside_main_first_part">
+
+    
+    
+    <div class="internal_first_part_first_child">
+
+    </div>
+
+
+    <div class="internal_first_part_second_child">
+        <h1>ABOUT WOODS UNIVERSITY  </h1>
+        <p>                                        
+            Developing  passion for learning.  You will never cease to grow and woods has a role in both advancing research and educating the next generation of leaders to succeed in and shape the digital economy.
+        </p>
+    </div>
 </div>
+
+<div class="internal_first_part_third_child">
+    <h1>ABOUT WOODS UNIVERSITY</h1>
+    <p>
+        Developing  passion for learning.  You will never cease to grow and woods has a role in both advancing research and educating the next generation of leaders to succeed in and shape the digital economy. Developing  passion for learning.  You will never cease to grow and woods has a role in both advancing research and educating the next generation of leaders to succeed in and shape the digital economy. Developing  passion for learning.  You will never cease to grow and woods has a role in both advancing research and educating the next generation of leaders to succeed in and shape the digital economy.
+    </p>
+</div>
+
 </section>
 
 
+
+<!--second_PART-->
 
 
 <section id="second_part">
-    <div  class="title" >
-        <div class="title_card">
-            <i class="fa-solid fa-graduation-cap"></i>
-            <h1> CERTIFICATIONS OFFERED</h1>
-            
-        </div>
-    </div>
-    
-    <div class="internal_parent_section">
-        
-        <div class="internal_second_first_child_section">
-            <div class="try">
-<i class="fa-solid fa-globe"></i>
- <h1>Diploma Programmes</h1>
-
-<h4>woods university Diploma Programmes are comprehensive courses designed for individuals seeking in-depth knowledge and expertise in specific fields. These programs offer a thorough exploration of theoretical concepts and practical applications, empowering students with a well-rounded education to excel in their chosen professions.</h4>
-</div>
-</div>
-
-  
-
-    <div class="internal_second_second_child_section">
-        <div class="try"> 
-         
-         <i class="fa-solid fa-certificate"></i>
-      <h1>certificate Programmes</h1>
-
-       <h4> The  Certificate Programmes offered by woods university are tailored for individuals focused on honing specific skills in a particular trade. These programs emphasize hands-on training, assessment, and certification, ensuring that graduates possess the practical competencies required for success in their chosen trades.</h4>
-    </div>
-    </div>
-
-    <div class="internal_second_third_child_section">
-        <div class="try">
-        <i class="fa-brands fa-cloudflare"></i>
-        <h1>online Programmes</h1>
-  
-         <h4> The online Certificate Programmes and deploma programs offered by woods university are tailored for individuals focused on honing specific skills in a particular fieled. These programs emphasize hands-on training, assessment, and certification, ensuring that graduates possess the practical competencies required for success in their chosen trades.</h4>
-        </div>
-      </div>
 
 
-</div>
-    </div>
-
-</section>
-
-
-
-<!--THIRD_PART-->
-
-
-<section id="third_part">
-    <div class="internal_third_section">
-        
+    <div class="internal_second_section" id="about">
         <h1>ABOUT WOODS UNIVERSITY</h1>
         <h3>From amateur to professional in carear skills</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, quidem. Provident  maxime expedita distinctio ab. Sapiente, nihil assumenda rerum veniam tempora consequuntur deleniti unde alias ducimus. Ratione assumenda minima quos!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, quidem. Provident  maxime expedita distinctio ab. Sapiente, nihil assumenda rerum veniam tempora consequuntur dele</p>
+        <p>pearson hanyinde dolor sit amet consectetur adipisicing elit. Porro, quidem. Provident  maxime expedita distinctio ab. Sapiente, nihil assumenda rerum veniam tempora consequuntur deleniti unde alias ducimus. Ratione assumenda minima quos!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, quidem. Provident  maxime expedita distinctio ab. Sapiente, nihil assumenda rerum veniam tempora consequuntur dele</p>
     </div>
+            <img src="Resources/wall papers/22.jpg" alt="an image of a digital flower" class="digital_flower">
+
+
 </section>
 
 
 
-<!--FOURTH_PART-->
 
-
-<section id="fourth_part">
-    <h1>Digital technology</h1> 
-   <p> Develop a passion for learning. If you do, you will never cease to grow and CBS has a role in both advancing research and educating the next generation of leaders to succeed in and shape the digital economy.</p>
-    <div class="internal_fourth_section">
-        
-        <video autoplay muted loop class="fourth_part_video">
-            <source src="Resources/short videos/18.mp4">
-        </video>
-
+<!--Third_PART-->
+<section class="third_section">
+    <div class="blue_line">
     </div>
 
+    <div class="middle_card">
+        <h1>Programs offered</h1>
+    </div>
+
+    <div class="image_container">
+        <div class="image_frame">
 
 
 
-</section >
+            <div class="image1">
+                <a href="#">certificate</a>
 
+            </div>
 
+            <div class="image2">
+                <a href="#">Deploma</a>
+            </div>
 
-<!--FITH PART    programs offered-->
-
-
-
-<section id="second_part">
-    <div  class="fith_part_title" >
-        <div class="fith_part_title_card">
-            <i class="fa-solid fa-snowflake"></i>
-            <h1> PRORAMS OFFERED</h1>
+            <div class="image3">
+                <a href="#">Online</a>
+            </div>
             
+
         </div>
+
     </div>
     
-    <div class="internal_parent_section">
+    <div class="btn">
         
-        <div class="internal_first_child_section">
-            <div class="try">
-                <i class="fa-solid fa-kit-medical"></i>
-<h1>MEDICAL PRORAMS</h1>
-<ul>
-    <li>Public Health</li>
-    <li>Bachelor of Medicine</li>
-    <li>Biomedical Sciences</li>
-    <li>Physiotherapy</li>
-    <li>Health Science</li>
-    <li>Nursing</li>
-    <li>Dentistry</li>
-    <li>Pharmacy</li>
-    <li>Radiography</li>
-    <li>Bachelor of Science in Clinical Medicine</li>
-    <li>Biomedical Engineering</li>
-    <li>Environmental health</li>
-    <li>Obstetrics and gynaecology</li>
-</ul>
+        <div class="second_btns">
+            <ul>
+                  <li>
 
-</div>
-</div>
+                    <a href="#" class="blue">Login<i class="fa-solid fa-circle-chevron-down"></i></a>
 
-  
+                        <div class="dropdown1">
+                              <ul>
+                        <li><a class="staff" href="staffloginpage.html">Staff</a></li>
+                        <li><a class="student" href="loginpage.html">Student</a></li>                      
+                              </ul>
+                         </div>
 
-    <div class="internal_second_child_section">
-        <div class="try"> 
-        <i class="fa-solid fa-user-tie"></i>
-         <h1>BUSINESS PROGRAMS</h1>
-         <ul>
-            <li>Accounting</li>
-            <li>Business Administration</li>
-            <li>Human Resources</li>
-            <li>Project management</li>
-            <li>MBA Finance</li>
-            <li>Bachelor of Commerce</li>
-            <li>MBA Marketing</li>
-            <li>Research</li>
-            <li>Bachelor of Banking & Finance</li>
-            <li>Bachelor of Purchasing & Supply management</li>
-            <li>Economics</li>
-            <li>Entrepreneurship</li>
-            <li>Finance</li>
-            <li></li>
-         </ul>
-    </div>
-    </div>
 
-    <div class="internal_third_child_section">
-        <div class="try">
-    <i class="fa-solid fa-compass-drafting"></i>
-        <h1>TECNICAL PROGRAMS</h1>
-        <ul>
-            <li></li>
-            <li>WILDLIFE SAFARI WALKING GUIDE.</li>
-            <li>Computer Networks</li>
-            <li>WILDLIFE SAFARI CANOE GUIDE</li>
-            <li>FRONT OFFICE OPERATIONS</li>
-            <li>FOOD & BEVERAGE SERVICE</li>
-            <li>FOOD PRODUCTION</li>
-            <li>LIVESTOCK PRODUCTION</li>
-            <li>Automotive Engineering</li>
-            <li>Automotive Electrical & Electronics</li>
-            <li>Metal Fabrication</li>
-            <li>Fashion Design & Textile Technology.</li>
-            <li>Water Supply & Sanitation Operation.</li>
-            <li>Plumbing & Pipe Fitting</li> 
-         </ul>
-        
+                  </li>
+            </ul>
 
-        </div>
       </div>
 
 
 
-      <div class="internal_fourth_child_section">
-        <div class="try">
-        <i class="fa-solid fa-pen-ruler"></i>
-<h1>IT PROGRAMS</h1>
-<ul>
-    <li>Computer Science</li>
-    <li>Data analytics</li>
-    <li>Application Developer</li>
-    <li>Networking</li>
-    <li>Artificial intelligence</li>
-    <li>Database & information systems</li>
-    <li>Computer Engineering</li>
-    <li>Computer support Specialist</li>
-    <li>Computing systems</li>
-    <li>Business Analytics</li>
-    <li>Network security</li>
-    <li>Programmer</li>
-    <li>Network Administrator</li>
-<li>Information technology</li>
-
-
-    
- </ul>
-
-</div>
-</div>
-
-
-
-<div class="internal_fith_child_section">
-    <div class="try"> 
-        <i class="fa-solid fa-seedling"></i>
-     <h1>ENVIROMENTAL PROGRAMS</h1>
-     <ul>
-        <li>Environmental analysis</li>
-        <li>Environmental Sciences</li>
-        <li>Energy</li>
-        <li>Agricultural Science</li>
-        <li>Chemistry</li>
-        <li>Earth Science</li>
-        <li>Ecology</li>
-        <li>Environmental health</li>
-        <li>Environmental planning</li>
-        <li>Environmental pollution control</li>
-        <li>Aquatic/Marine Biology	</li>
-        <li>Energy and Climate Change</li>
-       <li>Water Resource Management</li> 
-     </ul> 
-</div>
-</div>
-
-
-<div class="internal_sixth_child_section">
-    <div class="try">
-        <i class="fa-solid fa-earth-africa"></i>
-    <h1>ONLINE PROGRAMES</h1>
-    <ul>
-        <li>Business Administration</li>
-        <li>Criminal Justice</li>
-        <li>Education</li>
-        <li>Engineering</li>
-        <li>Graphic Design</li>
-        <li>Medical Billing and Coding</li>
-        <li>Nursing</li>
-        <li>Psychology</li>
-        <li>Religious Studies</li>
-        <li>Substance Abuse Counseling</li>
-     </ul>
-    
-</div>
-</div>
-</div>
 </section>
 
 
-<!--SIXTH PART-->
-<section id="sixth_part">
-
-<div class="sixth_internal_parent_section">
-
-
-    <div class="sixth_internal_first_child_section">
-        <h1>CONTENT</h1>
-        <ul>
-            <li> New assets</li>
-            <li> Blog</li>
-            <li> Calendar of festivities</li>
-            <li> The most popular content</li>
-            <li> About us</li>
-
-</ul>
+<section class="fourth_section">
+    <div class="blue_line">
+<p>.</p>
     </div>
 
+<div class="frame_container">
+    <div class="frame">
 
-
-    <div class="sixth_internal_third_child_section">
-        <h1>SOCIALS</h1>
-        <ul>
-            <li class="twitter"><i class="fa-brands fa-twitter"></i></li>
-            <li class="facebook"><i class="fa-brands fa-facebook"></i> </li>
-            <li class="tiktok"> <i class="fa-brands fa-tiktok"></i></li>
-            <li class="instagram"> <i class="fa-brands fa-instagram"></i></li>
-            <li class="linkedin"> <i class="fa-brands fa-linkedin"></i></li>
+        <div class="image4">
             
+                <li><a href="#">Classes</a></li>
+            
+        </div>
 
-        </ul>
-    </div>
-
-
-    <div class="sixth_internal_fourth_child_section">
-        <h1>LEGAL</h1>
-        <ul>
-            <li> Terms of use</li>
-            <li> License agreement</li>
-            <li> Privacy policy</li>
-            <li> Copyright information</li>
-            <li>Cookies policy </li>
-            <li> Cookies Settings</li>
-            <li> </li>
-        </ul>
-    </div>
-
-
-    <div class="sixth_internal_fourth_child_section">
-        <h1>SUPPORT</h1>
-        <ul>
-            <li>FAQ </li>
-            <li>Search guide</li>
-            <li>Contact </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li> </li>
-            <li class="subscription">  <input class="input_space"  type="email" name="email" placeholder="Email"><button class="sub_btn">subscriibe</button></li>
-
-
-        </ul>
-    </div>
-
-</div >
-
-
-</section>
-
-<section id="seventh_section">
-    <li>@WOODS | Developed by erick-maliko</li>
-    <div class="Copyright_parent_section">
-        <div class="Copyright_first_child_section">
+        <div class="image5">
+            <li><a href="#">Housing</a></li>
 
         </div>
 
+        <div class="image6">
+            <li><a href="#">Canteen</a></li>
+
+        </div>
+
+        <div class="image7">
+            <li><a href="library.html">LIbrary</a></li>
+
+        </div>
 
     </div>
+
+</div>
+    
+
 </section>
+
+
+<footer>
+
+    <div class="light_blue_line">
+    </div>
+
+
+    <div class="image6 content_container">
+        <div class="box_container1">
+            <ul>
+                <li class="tittles">CONTENT    </li>
+                <li><a href="">New assets</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Calendar of festivities</a></li>
+                <li><a href="">The most popular content</a></li>
+                <li><a href="">About us</a></li>
+          </ul>
+
+        </div>
+        
+        <div class="box_container2">
+            <ul>
+                <li class="tittles">LEGAL</li>
+                <li><a href="">Terms of use</a></li>
+                <li><a href="">License agreement</a></li>
+                <li><a href="">Privacy policy</a></li>
+                <li><a href=""> Copyright information</a></li>
+                <li><a href="">Cookies policy</a></li>
+                <li><a href="">Cookies Settings</a></li>
+          </ul>
+         </div>
+        
+        
+              <div class="box_container3">
+                <ul>
+                    <li class="tittles">SUPPORT  </li>          
+                    <li><a href="">About wooods</a></li>
+                    <li><a href="">Ask woods</a></li>
+                    <li><a href="">FAQ </a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href=""> </a></li>
+                    <li><a href=""> </a></li>
+              
+              </ul>
+              </div>
+        
+        
+        
+              <div class="box_container4">
+
+
+
+                    <ul>
+                        <li class="twitter"><i class="fa-brands fa-twitter"></i></li>
+                        <li class="facebook"><i class="fa-brands fa-facebook"></i> </li>
+                        <li class="tiktok"> <i class="fa-brands fa-tiktok"></i></li>
+                        <li class="instagram"> <i class="fa-brands fa-instagram"></i></li>
+                        <li class="linkedin"> <i class="fa-brands fa-linkedin"></i></li>
+                        
+            
+                    </ul>
+              </div>
+</div>
+
+
+<div class="copyright">
+    <p>&#9400 2024|Educenter|WOODS University </p>
+</div>
+
+
+
+
+</footer>
+ <!--java links-->
+ <script src="javascripts/second_animation.js"></script>
+ <script src="javascripts/smothrotation_of_svg.js"></script>
+ 
+
+
+
+
+
+
+
+
+
+
+
+</main>
  </body>
  </html>
  
