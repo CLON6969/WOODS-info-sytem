@@ -1,0 +1,156 @@
+
+
+body{
+    background:#0d9d50;
+    font-family: Arial, sans-serif;     
+}
+
+
+header {
+    background-color:#08022c;
+    color: white;
+    padding: 4px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.program-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.program{
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+
+.program-list li {
+    background-color: #08022c;
+    color: #ffffff;
+    margin: 8.5px 0;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+}
+
+.program-list li i{
+font-size: 15px;
+color: #0d9d50;
+}
+
+.program-list .titles{
+    background-color: #ffffff;
+    color: #08022c;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+
+.p_name1{
+    flex: 1 1 25%;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+    .p_duration1{
+        width: 4%;
+        text-align: center;
+        align-content: center;
+          
+    }
+
+    .program li .certification1{
+        width: 40%;
+        text-align: center;
+        align-content: center;
+          
+        }
+
+    .program li .study_mood1{
+        width: 18%;
+        text-align: center;
+        align-content: center;  
+        }
+
+
+
+
+
+
+
+
+
+
+
+.program-name{
+    flex: 1 1 25%;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    
+}
+
+
+.program li .certification{
+    width: 40%;
+    text-align: center;
+    align-content: center;
+      
+    }
+
+    .p_duration{
+        width: 4%;
+        text-align: center;
+        align-content: center;
+         
+    }
+
+    .program li .study_mood{
+        width: 18%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-content: center;
+           
+        }
+
+    .online, .fulltime{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        font-weight: 600;
+        justify-content: space-between;
+        align-content: center;
+        text-align: center;
+
+        
+    }
+
+
+
+
+
+@media (max-width: 768px) {
+    .program-list li .section {
+        flex: 1 1 100%;
+    }
+}

@@ -220,7 +220,7 @@ display: flex;
 flex-direction: column;
 align-items:center;
 line-height: 5vw;
-background-image:linear-gradient(rgba(3, 13, 53, 0.384),rgb(3, 13, 53)), url('wall\ papers/pic/16.jpg');
+background-image:linear-gradient(rgba(3, 13, 53, 0.384),rgb(3, 13, 53)), url('wall\ papers/16.jpg');
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
