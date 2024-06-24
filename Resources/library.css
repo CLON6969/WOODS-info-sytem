@@ -22,7 +22,7 @@ body{
     height: 5.5vh;
     justify-content: space-between;
     width: 100%;
-    background: #030d33;
+    background: #030d33 ;
     z-index: 999;
 }
 
@@ -152,7 +152,7 @@ body{
     justify-content: space-between;
     box-shadow: 2px 2px 10px #160458c9;
     width: 100%;
-    background: #0F6F36;
+    background: #0F6F36 ;
     z-index: 1;
 }
 

@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!--bootstrap css links-->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="css/inuse.min.css">
+           
+           
+                <!--bootstrap js links-->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/js/bootstrap.bundle.js">
+           
      <!--=====CSS link=====-->
      <link rel="stylesheet" href="Resources/registration.css">
 
@@ -21,53 +31,81 @@
         <title>aplication  form</title>
 </head>
 <body>
-    <div class="first_container">
-        <header>WOODS Application</header>
-        
-        <form  action="#">
-            <div class="form first">
-                <div class="details personal">
+    <div class="first_container position-relative">
+        <header>WOODS Application form
+          
+        </header>
+        <form  class=" needs-validation" >
+            <div class="form first position-relative">
+                <div class="details personal position-relative">
                     <span class="sub_tittle">Personal details</span>
 
-                    <div class="fields">
-                        <div class="input_field">
-                            <label>First name</label>
-                            <input type="text" placeholder="First name" >
-                        </div>
+                    <div class="fields position-relative">
 
 
-                        <div class="input_field">
-                            <label>Middle name</label>
-                            <input type="text" placeholder="Middle name" >
-                        </div>
-
-
-                        <div class="input_field">
-                            <label>Last name</label>
-                            <input type="text" placeholder="Last name" >
+                        <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="validationTooltip" placeholder="First name" required>
+                            <div class="valid-tooltip">
+                              Looks good!
                             </div>
-
-
-
-                            <div class="input_field">
-                                <label>Gender</label>
-                                <input type="text" placeholder="Gender" >
+                            <div class="invalid-feedback">
+                              invalid in put
                             </div>
+                          </div>
+
+
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Middle name</label>
+                            <input type="text" class="form-control" id="validationTooltip" placeholder="Middle name" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
+
+
+
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="validationTooltip" placeholder="Last name" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
+
+
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Gender</label>
+                            <select class="form-select" id="validationTooltip" placeholder="Gender" required>
+                              <option selected disabled value="">Choose...</option>
+                              <option>...</option>
+                            </select>
+                            <div class="invalid-tooltip">
+                              Please select a valid state.
+                            </div>
+                          </div>
 
                         
-                        <div class="input_field">
-                            <label>Mobile number</label>
-                            <input type="number" placeholder="(00)(00-00)(00-00)" >
-                        </div>
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Mobile number</label>
+                            <input type="text" class="form-control" id="validationTooltip" placeholder="(00)(00-00)(00-00)" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
 
 
 
-                        <div class="input_field">
-                            
-                            <label>Email</label>
-                          
-                            <input id="Email" type="email" placeholder="Email" >
-                        </div>
+                          <div class="input_field position-relative">
+                            <label for="validationTooltipUsername" class="form-label">Email</label>
+                            <div class="input-group has-validation">
+                              <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                              <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend"  placeholder="Exaple@gmail.com " required>
+                              <div class="invalid-tooltip">
+                                Please choose a unique and valid username.
+                              </div>
+                            </div>
+                          </div>
 
 
                     </div>
@@ -77,61 +115,85 @@
 
 
 
-                <div class="details_id">
+                <div class="details_id position-relative">
   
                     <span class="tittle"></span>
 
-                    <div class="fields">
-                        <div class="input_field">
-                            <label>Nationality</label>
-                            <input type="text" placeholder="Nationality" >
-                        </div>
+                    <div class="fields position-relative">
+
+                        <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Nationality</label>
+                            <select class="form-select" id="validationTooltip"  required>
+                              <option selected disabled value="">Choose...</option>
+                              <option>...</option>
+                            </select>
+                            <div class="invalid-tooltip">
+                              Please select a valid state.
+                            </div>
+                          </div>
 
 
-                        <div class="input_field">
-                            <label>Religion</label>
-                            <input type="text" placeholder="Religion" >
-                        </div>
+
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Religion</label>
+                            <select class="form-select" id="validationTooltip"  required>
+                              <option selected disabled value="">Choose...</option>
+                              <option>...</option>
+                            </select>
+                            <div class="invalid-tooltip">
+                              Please select a valid state.
+                            </div>
+                          </div>
 
 
-                        <div class="input_field">
-                            <label>Marital Status</label>
-                            <input type="text" placeholder="Marital Status" >
-                        </div>
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Marital status</label>
+                            <select class="form-select" id="validationTooltip" placeholder="Religion" required>
+                              <option selected disabled value="">Choose...</option>
+                              <option>...</option>
+                            </select>
+                            <div class="invalid-tooltip">
+                              Please select a valid state.
+                            </div>
+                          </div>
 
 
-                        <div class="input_field">
-                            <label>Date of birth</label>
-                            <input type="date" placeholder="Date of birth" >
-                        </div>
+
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Date of birth</label>
+                            <input type="date" class="form-control" id="validationTooltip" placeholder="Date of birth"required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
 
 
-                        <div class="input_field">
-                            <label>National id number</label>
-                            <input type="number" placeholder="National id number" >
-                        </div>
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Nationalid number</label>
+                            <input type="number" class="form-control" id="validationTooltip" placeholder="(00)(00-00)(00-00)" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
 
 
-                        <div class="input_field">
-                            <label>Emergency phone</label>
-                            <input type="number" placeholder="(00)(00-00)(00-00)" >
-                        </div>
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Emergency phone</label>
+                            <input type="text" class="form-control" id="validationTooltip" placeholder="(00)(00-00)(00-00)" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
 
 
                         <div class="input_field">
                             <label>Profile picture</label>
                             <div class="file_icon">
                                 <i class="fa-solid fa-upload"></i>
-                            <input class="files" type="file"> 
+                            <input class="form-control files" type="file"   type="file"  aria-label="file example" required> 
                         </div>
+                        <div class="invalid-feedback">Example invalid form file feedback</div>
                         </div>
-
-                        
-                        <button  id="submit" class="nextbtn">
-                            <span class="btntxt">Next</span>
-                            <i class="fa fa-forward"></i>
-                        </button>
-                    </div>
     
                     </div>
             </div>
@@ -139,7 +201,14 @@
 
 
 
-        <!--=====THE NEXT FORM====-->
+
+
+        <!--===== NEXT PART OF THE FORM====-->
+
+
+
+
+
 
             <div class="form second">
                 <span class="tittle">Education  and address details</span>
@@ -149,44 +218,62 @@
                     <span class="sub_tittle">Secondary</span>
 
                     <div class="fields">
-                        <div class="input_field">
-                            <label>School Name</label>
-                            <input type="text"  placeholder="School Name" >
-                        </div>
+                        <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">School name</label>
+                            <input type="text" class="form-control" id="validationTooltip" placeholder="School name" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
 
 
-                        <div class="input_field">
-                            <label>Level of qualification</label>
-                            <input type="text"  name="Level of qualification" placeholder="Level of qualification" >
-                        </div>
-
-
-
-                        <div class="input_field">
-                            <label>Entry date</label>
-                            <input type="date" placeholder="Entry date" >
-                        </div>
-
-
-                        <div class="input_field">
-                            <label>Date Graduated</label>
-                            <input type="date" placeholder="Date Graduated" >
-                        </div>
-
-
-                        <div class="input_field">
-                            <label>School Address</label>
-                            <input type="text" placeholder="School Address" >
-                        </div>
+                        <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Level of qualification</label>
+                            <input type="text" class="form-control" id="validationTooltip" placeholder="Level of qualification" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
 
 
 
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Entry date</label>
+                            <input type="date" class="form-control" id="validationTooltip" placeholder="Entry date" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
 
-                        <div class="input_field">
+
+
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Graduated date</label>
+                            <input type="date" class="form-control" id="validationTooltip" placeholder="Graduated date" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
+
+
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">School Addres</label>
+                            <input type="text" class="form-control" id="validationTooltip" placeholder="School Addres" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
+
+
+
+
+                          <div class="input_field">
                             <label>Qualification document</label>
                             <div class="file_icon">
                                 <i class="fa-solid fa-upload"></i>
-                            <input class="files" type="file"> 
+                            <input class="form-control files" type="file"   type="file"  aria-label="file example" required> 
+                        </div>
+                        <div class="invalid-feedback">Example invalid form file feedback</div>
                         </div>
                         </div>
 
@@ -202,41 +289,62 @@
                     <span class="sub_tittle">Higher education</span>
 
                     <div class="fields">
-                        <div class="input_field">
-                            <label>School name</label>
-                            <input type="text" placeholder="School name" >
-                        </div>
+                        <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">School name</label>
+                            <input type="text" class="form-control" id="validationTooltip" placeholder="School name" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
 
 
-                        <div class="input_field">
-                            <label>Level of qualification</label>
-                            <input type="text" placeholder="Level of qualification" >
-                        </div>
+                        <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Level of qualification</label>
+                            <input type="text" class="form-control" id="validationTooltip" placeholder="Level of qualification" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
 
 
-                        <div class="input_field">
-                            <label>Entry date</label>
-                            <input type="date" placeholder="Entry date" >
-                        </div>
+
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Entry date</label>
+                            <input type="date" class="form-control" id="validationTooltip" placeholder="Entry date" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
 
 
-                        <div class="input_field">
-                            <label>Date graduated</label>
-                            <input type="date" placeholder="Date graduated" >
-                        </div>
+
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">Graduated date</label>
+                            <input type="date" class="form-control" id="validationTooltip" placeholder="Graduated date" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
 
 
-                        <div class="input_field">
-                            <label>School Address</label>
-                            <input type="text" placeholder="School Address" >
-                        </div>
+                          <div class="input_field position-relative">
+                            <label for="validationTooltip" class="form-label">School Addres</label>
+                            <input type="text" class="form-control" id="validationTooltip" placeholder="School Addres" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
 
 
-                        <div class="input_field">
+
+
+                          <div class="input_field">
                             <label>Qualification document</label>
                             <div class="file_icon">
                                 <i class="fa-solid fa-upload"></i>
-                            <input class="files" type="file"> 
+                            <input class="form-control files" type="file"   type="file"  aria-label="file example" required> 
+                        </div>
+                        <div class="invalid-feedback">Example invalid form file feedback</div>
                         </div>
                         </div>
 
@@ -245,19 +353,9 @@
 
 
 
-                    <div class="btns">
 
-                    <button class="backbtn">
-                        <i class="fa fa-forward"></i>
-                        <span class="btntxt">Back</span>
-                    </button>
 
-                    <button class="sumbit">
-                        <span class="btntxt">Submite</span>
-                        <i class="fa fa-forward"></i>
-                    </button>
-
-                   </div>
+                   <button class="btn btn-primary" type="submit"> <span class="btntxt">Submite</span> <i class="fa fa-forward"></i></button>
 
 
 
@@ -271,7 +369,7 @@
         </form>
 
       
-        <script src="javascripts/application.js"></script>
+      <!--  <script src="javascripts/application.js"></script>-->
     </div>
 
 
