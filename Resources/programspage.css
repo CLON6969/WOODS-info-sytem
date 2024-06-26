@@ -1,0 +1,1004 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:  #08022c;
+    font-family: 'poppins', sans-serif;
+    
+}
+
+h1{
+    font-weight: 700;
+    color: #08022c;
+   
+    
+}
+
+
+span{
+    font-size: 9rem;
+    color:#757373;
+
+}
+
+h6{
+    font-size: 1.1rem;
+    color: rgb(24, 24, 49);
+}
+
+
+/* NAVIGATION BAR */
+nav{
+    height: 11vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw 8vw;
+    align-items: center;
+    box-shadow: 2px 2px 10px #16045826;
+    position: fixed;
+    width: 100%;
+    background-color: #0d9d50;
+    z-index: 999;
+}
+label .logo{
+    color: hsl(120, 100%, 50%);
+    font-size:40px ;
+    width: 5%;
+    text-decoration: none;
+    line-height: 80px;
+    padding-left: 2px;
+    font-weight: 800;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+
+}
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline;
+    line-height: 80px;
+    margin:0 5px  ;
+}
+    nav ul li a{
+        color: aliceblue;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(245, 245, 248);
+        font-size: 16px ;
+        font-weight: 800;
+        transition: 0.3s ease;
+    /*box around nav*/
+        padding: 15px 45px;
+        border-radius: 3px;
+      
+    }
+
+
+    .checkbtn{
+        font-size: 30px;
+        color: beige;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+
+    }
+
+
+
+    nav .programs,.fees,.admision,.services{
+        background-color: #08022c;
+    }
+    nav .programs:hover,.fees:hover,.admision:hover,.services:hover,.contact:hover{
+        background-color:#ffffff;
+        -webkit-text-fill-color: #08022c;
+        transition: 0.3s;
+    
+    }
+    nav a.programs{
+        background:#ffffff;
+        color: #08022c;
+    }
+
+
+    @media (max-width:952px) {
+
+        label .logo{
+    font-size:35px ;
+    padding: 0 100px;
+}
+nav ul li{
+    font-size: 16px;
+}
+
+    }
+
+    @media (max-width:952px) {
+
+        .checkbtn{
+display: block;
+}
+ nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100hvh;
+    background: #040127e7;
+    top:80px;
+    left:-100%;
+    text-align:center ;
+    transition: all .5s;
+
+}
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+    
+}
+nav ul li a{
+    font-size:20px ;
+
+}
+
+#check:checked ~ ul{
+    left: 0;
+
+}
+    }
+
+@media only screen and (min-width: 953px) and (max-width: 1077px) {
+
+
+    nav ul li a{
+     padding: 15px 20px;     
+}
+
+
+label .logo{
+    font-size:30px ;
+    padding-left: 0;
+}
+    }
+
+
+
+
+
+
+
+/*first part*/
+
+
+  .first_part .internal_parent_first_part{
+    height: 50vh;
+    width: 100%;
+    background:linear-gradient(rgba(3, 13, 53, 0.384),rgba(3, 13, 53, 0.719)), url('wall\ papers/166.5.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: start;
+    align-content: center;
+  }
+
+  .first_part .internal_parent_first_part h1{
+font-size: 40px;
+font-weight: 800;
+color: #ffffff;
+margin-left: 6%;
+  }
+
+  /*third part*/
+
+
+  .third_part{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.third_part .container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.third_part .nav-bar {
+    width: 15%;
+    background-color: #0d9d50;
+    border-right: 2px solid #08022c; 
+    display: flex;
+    flex-direction: column;
+}
+
+.third_part .nav-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Added margin: 0 to remove default margins */
+}
+
+.third_part .nav-bar li {
+    width: 95%;
+    background: #08022c;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 1.3rem;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.third_part .nav-bar li:hover {
+    background-color: #ddd;
+    color: #08022c;
+}
+
+.third_part .content {
+    flex: 1;
+    padding: 0; /* Remove padding to make iframe full size */
+    display: flex; /* Ensure the iframe takes full space */
+}
+
+.third_part iframe {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+
+
+/*fourth part*/
+
+.fourth_section {
+    height: 60vh;
+    width: 100%; /* or any specific width */
+    background: linear-gradient(rgba(3, 13, 53, 0.493), rgba(3, 13, 53, 0.719)), url('wall papers/153.jpg') no-repeat;
+    background-position: top;
+    background-size: cover;
+    display:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fourth_section .text{
+    width: 80%;
+    margin: auto;
+
+    
+}
+
+.fourth_section .text h1{
+padding-top: 40px;
+font-size: 17px;
+font-weight: 600;
+
+text-justify:newspaper;
+color: #ffffff;
+    
+}
+
+.apply_button_container {
+    height: 45%;
+    align-content: end;
+
+}
+
+
+.apply_button_container a{
+    position: relative;
+    font-size: 1rem;  
+    text-decoration: none;
+    padding: 12px 35px;
+    border-radius: 3px;
+    font-weight: 800;
+    width: 100%;
+    margin-top: 30px;
+   
+}
+
+ .apply_button{
+    background-color: #0d9d50;
+    color:  #ffffff;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
+.apply_button:hover{
+    color:  #0d9d50;
+    background-color: #f5f4f2;
+    -webkit-text-fill-color: rgb(7, 7, 139);
+    transition: 0.5s;
+}
+
+
+
+/*fith SECTION*/
+
+
+.fith_section{
+    height: 60vh;
+    align-items: center;
+    display: flex;
+    padding: 0, 10%;
+    background-color:#0d9d50;
+    overflow: hidden;
+    
+    
+}
+
+.main_image_container{
+    width: 60%;
+    height: 85%;
+    margin-right: 5%;
+    align-content: center;
+}
+
+.image_container{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: auto;  
+}
+
+.fith_section img{
+    width: 100%;
+    height: 100%;
+    
+    transform: scale(1);
+    transition: 1.5s ease-in;
+}
+
+ .fith_section .digital_flower{
+    object-fit: cover;
+}
+
+.fith_section:hover img {
+transform: scale(1.3);
+
+    
+}
+
+
+.internal_fith_section{
+    width: 100%;
+    height: 63%;
+    margin-left: 8%;
+background:#08022c;
+
+
+}
+
+
+.internal_fith_section h1{
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    width: 70%;
+    -webkit-text-fill-color: hwb(0 95% 3%);
+    margin: 40PX;
+
+    }
+
+    
+
+@keyframes showLeft{
+    100%{
+        width:0;
+    }
+}
+
+
+
+
+
+.sixth_section{
+    height: 60vh;
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1078%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(8%2c 2%2c 44%2c 1)'%3e%3c/rect%3e%3cpath d='M -73.23493306039438%2c496 C 22.77%2c452.4 214.77%2c271.2 406.7650669396056%2c278 C 598.77%2c284.8 694.77%2c563.2 886.7650669396056%2c530 C 1078.77%2c496.8 1174.77%2c138 1366.7650669396057%2c112 C 1558.77%2c86 1832.12%2c374.6 1846.7650669396057%2c400 C 1861.41%2c425.4 1521.35%2c271.2 1440%2c239' stroke='rgba(13%2c 157%2c 80%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -158.71802153184473%2c304 C -62.72%2c293.2 129.28%2c224.4 321.2819784681553%2c250 C 513.28%2c275.6 609.28%2c445.4 801.2819784681553%2c432 C 993.28%2c418.6 1089.28%2c189.8 1281.2819784681553%2c183 C 1473.28%2c176.2 1729.54%2c415.6 1761.2819784681553%2c398 C 1793.03%2c380.4 1504.26%2c155.6 1440%2c95' stroke='rgba(13%2c 157%2c 80%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -156.6083674243834%2c549 C -60.61%2c490.6 131.39%2c281 323.3916325756166%2c257 C 515.39%2c233 611.39%2c478 803.3916325756165%2c429 C 995.39%2c380 1091.39%2c28.4 1283.3916325756165%2c12 C 1475.39%2c-4.4 1732.07%2c339.2 1763.3916325756165%2c347 C 1794.71%2c354.8 1504.68%2c110.2 1440%2c51' stroke='rgba(13%2c 157%2c 80%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -578.2360729600217%2c524 C -482.24%2c421.2 -290.24%2c14 -98.23607296002173%2c10 C 93.76%2c6 189.76%2c483.2 381.7639270399783%2c504 C 573.76%2c524.8 669.76%2c141.2 861.7639270399783%2c114 C 1053.76%2c86.8 1226.12%2c339.2 1341.7639270399782%2c368 C 1457.41%2c396.8 1420.35%2c280 1440%2c258' stroke='rgba(13%2c 157%2c 80%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -733.4896027886085%2c224 C -637.49%2c258 -445.49%2c424.4 -253.48960278860852%2c394 C -61.49%2c363.6 34.51%2c49.2 226.51039721139148%2c72 C 418.51%2c94.8 514.51%2c516.2 706.5103972113915%2c508 C 898.51%2c499.8 1039.81%2c76 1186.5103972113916%2c31 C 1333.21%2c-14 1389.3%2c232.6 1440%2c283' stroke='rgba(13%2c 157%2c 80%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -791.0805799129303%2c512 C -695.08%2c440.6 -503.08%2c191.8 -311.08057991293026%2c155 C -119.08%2c118.2 -23.08%2c345.8 168.91942008706974%2c328 C 360.92%2c310.2 456.92%2c37.4 648.9194200870697%2c66 C 840.92%2c94.6 970.7%2c481.8 1128.9194200870697%2c471 C 1287.14%2c460.2 1377.78%2c103.8 1440%2c12' stroke='rgba(13%2c 157%2c 80%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -347.3437234445514%2c116 C -251.34%2c198.6 -59.34%2c518.8 132.6562765554486%2c529 C 324.66%2c539.2 420.66%2c181 612.6562765554486%2c167 C 804.66%2c153 900.66%2c442 1092.6562765554486%2c459 C 1284.66%2c476 1503.19%2c282.2 1572.6562765554486%2c252 C 1642.13%2c221.8 1466.53%2c296.8 1440%2c308' stroke='rgba(13%2c 157%2c 80%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -355.2498033914057%2c106 C -259.25%2c178.2 -67.25%2c460.6 124.75019660859431%2c467 C 316.75%2c473.4 412.75%2c151.2 604.7501966085943%2c138 C 796.75%2c124.8 892.75%2c419 1084.7501966085943%2c401 C 1276.75%2c383 1493.7%2c69 1564.7501966085943%2c48 C 1635.8%2c27 1464.95%2c246.4 1440%2c296' stroke='rgba(13%2c 157%2c 80%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -502.77254910916025%2c237 C -406.77%2c269.2 -214.77%2c444 -22.772549109160245%2c398 C 169.23%2c352 265.23%2c-24.8 457.22745089083975%2c7 C 649.23%2c38.8 745.23%2c505.8 937.2274508908398%2c557 C 1129.23%2c608.2 1316.67%2c286.6 1417.2274508908397%2c263 C 1517.78%2c239.4 1435.45%2c403.8 1440%2c439' stroke='rgba(13%2c 157%2c 80%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -145.7314797041575%2c551 C -49.73%2c454.4 142.27%2c107 334.2685202958425%2c68 C 526.27%2c29 622.27%2c368.4 814.2685202958426%2c356 C 1006.27%2c343.6 1102.27%2c-0.6 1294.2685202958426%2c6 C 1486.27%2c12.6 1745.12%2c362.8 1774.2685202958426%2c389 C 1803.41%2c415.2 1506.85%2c187.4 1440%2c137' stroke='rgba(13%2c 157%2c 80%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1078'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    
+    }
+    
+    .sixth_section .content_container{
+        display: flex;
+        flex-direction: row;
+        height: 60vh;
+        justify-content: space-evenly ;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;   
+    }
+    
+    
+    .sixth_section  li{
+        color: #00F0FF;
+        list-style-type: none;
+        line-height: 25px;
+    }
+    
+    .sixth_section  li a{
+        color: #00F0FF;
+        text-decoration: none;
+        line-height: 30px;
+    }
+    
+    
+    .sixth_section .tittles {
+        text-align: start;
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    .sixth_section .content_container .box_container1, .sixth_section .content_container .box_container2, .sixth_section .content_container .box_container3, .sixth_section .content_container .box_container4{
+        height: 45vh;
+        width: 13%;
+        background-color:#110555cb;
+        color: #00F0FF;
+        text-align: center;
+    }
+    
+    .sixth_section .box_container2,.sixth_section   .box_container4{
+    margin-top: 90px;
+    }
+    
+    .sixth_section .box_container1,.sixth_section   .box_container3{
+    margin-bottom: 90px;
+    padding-bottom: 90px;
+    }
+    
+    footer{
+        height: 5vh;
+        background-color:#0d9d50 ;
+        
+    }
+    
+    footer p{
+        color:#08022c;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+        list-style-type: none;
+        padding-top: 8px;
+    }
+    
+    footer p a{
+        color:#08022c;
+        text-align: center;
+        list-style-type: none;
+        padding-top: 8px;
+    }
+
+
+    
+/* Responsive styles */
+@media only screen and (max-width: 359px) {
+
+
+.first_part .internal_parent_first_part h1{
+     font-size: 37px;
+    margin-left: 16%;
+}
+
+/* this resizes the navigation bar of the courses*/
+.third_part {
+    flex-direction: column; /* Adjust to column to stack nav-bar and content */
+  }
+  
+  .third_part .nav-bar {
+    width: 100%; /* Full width for top navigation bar */
+    justify-content: center; /* Center the navigation items */
+  }
+  
+  .third_part .nav-bar ul {
+    display: flex;
+    flex-wrap: wrap; /* Horizontal layout for navigation items */
+  }
+  
+  .third_part .nav-bar li {
+    width: 100%;
+    margin: 2px;
+    margin-top: 0;
+    padding: 5px;
+    font-size: 11px;
+    font-weight: 700; /* Increase padding for better appearance */
+    
+  }
+  
+  
+  .third_part .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  
+
+
+/* this re-adjusts the h1 in the fourth section*/
+
+.fourth_section .text{
+    width: 90%   
+}
+
+
+.fourth_section .text h1{
+padding-top: 8%;
+font-size: 16px;
+font-weight: 500;
+text-justify: auto;  
+}
+
+/* this realigns the apply link in the fourth section*/
+.apply_button_container {
+    height: 15%;
+    align-content: center;
+}
+
+.apply_button_container a{ 
+    padding: 8px 30px;
+}
+
+/* this re-sizing of the image in the fith section*/
+
+.main_image_container{
+    width: 70%;
+    height: 96%;
+    margin-right: 0;
+    align-content: center;
+}
+/* this re-sizing of the h1 in the fith section*/
+.internal_fith_section{
+    height: 83%;
+    align-content: center;
+    margin-left: 0;
+}
+
+.internal_fith_section h1{
+    width: 100%;
+    font-size: 10px;
+    font-weight: 250;
+    margin: 5px; 
+
+    }
+
+    /* this re-sizing of the box_container in the sixth section*/
+
+    .sixth_section{
+        height: inherit;  
+    }
+
+    .sixth_section  li a{
+        line-height: 20px;
+        font-size: 11px;
+    }
+
+        .sixth_section .tittles {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 11px;
+    }
+
+
+
+
+    .sixth_section .content_container .box_container1, .sixth_section .content_container .box_container2, .sixth_section .content_container .box_container3, .sixth_section .content_container .box_container4{
+        height: inherit;
+        width: 30%;
+        
+    }
+
+    .sixth_section .box_container2,.sixth_section   .box_container4{
+        margin-top: 0;
+        }
+
+    .sixth_section .box_container1,.sixth_section   .box_container3{
+        margin-bottom: 0;
+        padding-bottom:0;
+        }
+        
+    
+
+        
+}
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+
+
+    .first_part .internal_parent_first_part h1{
+        font-size: 37px;
+       margin-left: 16%;
+   }
+   
+   /* this resizes the navigation bar of the courses*/
+   .third_part {
+       flex-direction: column; /* Adjust to column to stack nav-bar and content */
+     }
+     
+     .third_part .nav-bar {
+       width: 100%; /* Full width for top navigation bar */
+       justify-content: center; /* Center the navigation items */
+     }
+     
+     .third_part .nav-bar ul {
+       display: flex;
+       flex-wrap: wrap; /* Horizontal layout for navigation items */
+     }
+     
+     .third_part .nav-bar li {
+       width: 100%;
+       margin: 2px;
+       margin-top: 0;
+       padding: 5px;
+       font-size: 11px;
+       font-weight: 700; /* Increase padding for better appearance */
+       
+     }
+     
+     
+     .third_part .container {
+       flex: 1;
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+     }
+     
+     
+   
+   
+   /* this re-adjusts the h1 in the fourth section*/
+   
+   .fourth_section .text{
+       width: 90%   
+   }
+   
+   
+   .fourth_section .text h1{
+   padding-top: 8%;
+   font-size: 16px;
+   font-weight: 500;
+   text-justify: auto;  
+   }
+   
+   /* this realigns the apply link in the fourth section*/
+   .apply_button_container {
+       height: 15%;
+       align-content: center;
+   }
+   
+   .apply_button_container a{ 
+       padding: 8px 30px;
+   }
+   
+   /* this re-sizing of the image in the fith section*/
+   
+   .main_image_container{
+       width: 70%;
+       height: 96%;
+       margin-right: 0;
+       align-content: center;
+   }
+   /* this re-sizing of the h1 in the fith section*/
+   .internal_fith_section{
+       height: 83%;
+       align-content: center;
+       margin-left: 0;
+   }
+   
+   .internal_fith_section h1{
+       width: 100%;
+       font-size: 12px;
+       font-weight: 250;
+       margin: 5px; 
+   
+       }
+   
+       /* this re-sizing of the box_container in the sixth section*/
+   
+       .sixth_section{
+           height: inherit;  
+       }
+   
+       .sixth_section  li a{
+           line-height: 20px;
+           font-size: 11px;
+       }
+   
+           .sixth_section .tittles {
+           text-align: center;
+           margin-bottom: 20px;
+           font-size: 11px;
+       }
+   
+   
+   
+   
+       .sixth_section .content_container .box_container1, .sixth_section .content_container .box_container2, .sixth_section .content_container .box_container3, .sixth_section .content_container .box_container4{
+           width: 30%;
+           
+       }
+   
+       .sixth_section .box_container2,.sixth_section   .box_container4{
+           margin-top: 0;
+           }
+   
+       .sixth_section .box_container1,.sixth_section   .box_container3{
+           margin-bottom: 0;
+           padding-bottom:0;
+           }
+           
+
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .third_part .nav-bar {
+        width: 30%;
+      } 
+
+     
+    
+     
+     
+   
+   
+   /* this re-adjusts the h1 in the fourth section*/
+   
+   .fourth_section .text{
+       width: 90%   
+   }
+   
+   
+   .fourth_section .text h1{
+   padding-top: 8%;
+   font-size: 16px;
+   font-weight: 500;
+   text-justify: auto;  
+   }
+   
+   /* this realigns the apply link in the fourth section*/
+   .apply_button_container {
+       height: 15%;
+       align-content: center;
+   }
+   
+   .apply_button_container a{ 
+       padding: 8px 30px;
+   }
+   
+   /* this re-sizing of the image in the fith section*/
+   
+   .main_image_container{
+       width: 70%;
+       height: 96%;
+       margin-right: 0;
+       align-content: center;
+   }
+   /* this re-sizing of the h1 in the fith section*/
+   .internal_fith_section{
+       height: 83%;
+       align-content: center;
+       margin-left: 0;
+   }
+   
+   .internal_fith_section h1{
+       width: 100%;
+       font-size: 12px;
+       font-weight: 250;
+       margin: 5px; 
+   
+       }
+   
+       /* this re-sizing of the box_container in the sixth section*/
+   
+       .sixth_section{
+           height: inherit;  
+       }
+   
+       .sixth_section  li a{
+           line-height: 20px;
+           font-size: 13px;
+       }
+   
+           .sixth_section .tittles {
+           text-align: center;
+           margin-bottom: 20px;
+           font-size: 16px;
+       }
+   
+   
+   
+   
+       .sixth_section .content_container .box_container1, .sixth_section .content_container .box_container2, .sixth_section .content_container .box_container3, .sixth_section .content_container .box_container4{
+           width: 22%;
+           
+       }
+       .sixth_section .box_container2,.sixth_section   .box_container4{
+        margin-top: 70px;
+        }
+
+           
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .third_part .nav-bar {
+        width: 30%;
+      } 
+
+   /* this re-adjusts the h1 in the fourth section*/
+   
+   .fourth_section .text{
+       width: 90%   
+   }
+   
+   
+   .fourth_section .text h1{
+   padding-top: 8%;
+   font-size: 16px;
+   font-weight: 500;
+   text-justify: auto;  
+   }
+   
+
+   .apply_button_container {
+       height: 15%;
+       align-content: center;
+   }
+   
+   .apply_button_container a{ 
+       padding: 8px 30px;
+   }
+   
+   /* this re-sizing of the image in the fith section*/
+   
+   .main_image_container{
+       width: 70%;
+       height: 96%;
+       margin-right: 0;
+       align-content: center;
+   }
+   /* this re-sizing of the h1 in the fith section*/
+   .internal_fith_section{
+       height: 83%;
+       align-content: center;
+       margin-left: 0;
+   }
+   
+   .internal_fith_section h1{
+       width: 100%;
+       font-size: 15px;
+       font-weight: 250;
+       margin: 5px; 
+   
+       }
+   
+       /* this re-sizing of the box_container in the sixth section*/
+   
+       .sixth_section{
+           height: inherit;  
+       }
+   
+       .sixth_section  li a{
+           line-height: 20px;
+           font-size: 16px;
+       }
+   
+           .sixth_section .tittles {
+           text-align: center;
+           margin-bottom: 20px;
+           font-size: 18px;
+       }
+   
+   
+   
+   
+       .sixth_section .content_container .box_container1, .sixth_section .content_container .box_container2, .sixth_section .content_container .box_container3, .sixth_section .content_container .box_container4{
+           width: 22%;
+           
+       }
+       .sixth_section .box_container2,.sixth_section   .box_container4{
+        margin-top: 70px;
+        }
+
+        
+    
+    
+   
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    nav ul li a{
+
+        padding: 15px 30px;
+        border-radius: 3px;
+      
+    }
+   
+       /* this re-sizing of the box_container in the sixth section*/
+   
+       .sixth_section{
+        height: inherit;  
+    }
+
+    .sixth_section  li a{
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+        .sixth_section .tittles {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+
+
+
+    .sixth_section .content_container .box_container1, .sixth_section .content_container .box_container2, .sixth_section .content_container .box_container3, .sixth_section .content_container .box_container4{
+        width: 20%;
+        
+    }
+    .sixth_section .box_container2,.sixth_section   .box_container4{
+     margin-top: 70px;
+     }
+
+     
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1384px) {
+
+    
+       /* this re-sizing of the image in the fith section*/
+   
+   .main_image_container{
+    width: 80%;
+    height: 90%;
+    align-content: center;
+}
+/* this re-sizing of the h1 in the fith section*/
+.internal_fith_section{
+    height: 78%;
+    align-content: center;
+    margin-left: 0;
+}
+
+.internal_fith_section h1{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 250;
+    margin: 5px; 
+
+    }
+
+}
+
+
+
+
+
